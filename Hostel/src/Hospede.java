@@ -7,8 +7,6 @@ public class Hospede {
 	private char sexo;
 	private boolean hospedado;
 	
-	
-	
 	public Hospede(String nome, int idade, int rg, int cpf, char sexo, boolean hospedado) {
 		super();
 		this.nome = nome;
