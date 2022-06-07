@@ -15,7 +15,7 @@ public class Movimentacoes {
 	}
 
 	public void checkin (int qtdDias, Hospede h1) {
-		System.out.println(h1.getNome());
+		h1.setHospedado(true);
 		valorReceber = valorDiaria * qtdDias;
 		System.out.println("Check-in realizado com sucesso");
 	}
